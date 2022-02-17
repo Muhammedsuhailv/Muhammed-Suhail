@@ -447,6 +447,7 @@ nav ul li a:hover::after{
 	background-position: center;
 	padding: 0 8%;
 	position: relative;
+	margin:0;
 }
 
 	
