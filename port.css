@@ -419,12 +419,12 @@ nav ul li a:hover::after{
 	color: #777;
 	
 }
-@media only screen and (max-width: 700px){
+@media(max-width:700px){
 
 	.container{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(image/bg2.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(bg2.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 0 8%;
@@ -432,8 +432,8 @@ nav ul li a:hover::after{
 }
 
 
-	.text h1{
-	font-size: 125px;
+.text h1{
+	font-size: 120px;
 }
 .text p{
 	font-size: 30px;
@@ -441,6 +441,13 @@ nav ul li a:hover::after{
 .text h3{
 	font-size: 20px;
 }
+
+.text a{
+
+	font-size:40px;
+	margin-top: 50px;
+}
+
 
 nav ul li{
 	display:block;
@@ -496,11 +503,11 @@ nav ul{
 .social{
 	position: absolute;
 	right: 5%;
-	bottom: 9%;
+	bottom: 2%;
 }
 .social img{
 	width: 25px;
-	display: flex;
+	display:inline-block;
     margin: 25px 5px;
 }
 
@@ -526,7 +533,7 @@ nav ul{
 }
 
 .about img{
-	margin-top: -40px;
+	margin-top: -0px;
 	margin-bottom: 30px;
 }
 
@@ -537,5 +544,3 @@ nav ul{
 
 
 }
-
-
