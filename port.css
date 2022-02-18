@@ -155,7 +155,7 @@ nav ul li a:hover::after{
 
 	.container{
 	
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(image/bg2.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(bg2.jpg);
 	
 }
 .text h1{
