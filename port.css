@@ -201,16 +201,69 @@ nav ul li{
 	z-index: 2;
 }
 nav ul{
-
+	margin-left: 70px;
 	margin-top:50px;
-	margin-right:-80px;
+	
 
 }
+
+
+.hero-btn{
+	margin-top: 10px;
+	width: 80%;
+	border:2px solid #fff;
+	background: transparent;
+	color: red;
+	border-radius:5px;
+	cursor: pointer;
+}
+.hero-btn a{
+	text-decoration:none;
+	color: #fff;
+	transition: ease-in-out;
+	font-size: 30px;
+	font-family: Malgun Gothic;
+
+
+}
+.hero-btn:hover{
+	background: darkred;
+	border-color:#fff ;
+	transition: 0.9s ease-in-out;
+
+}
+
+.hero-btn2{
+	width: 80%;
+	margin-top: 20px;
+	border:2px solid #fff;
+	background: transparent;
+	color: red;
+	border-radius:5px;
+	cursor: pointer;
+}
+.hero-btn2 a{
+
+	text-decoration:none;
+	color: #fff;
+	transition: ease-in-out;
+	font-size: 30px;
+	font-family: Malgun Gothic;
+
+
+}
+.hero-btn2:hover{
+	background: darkred;
+	border-color:#fff ;
+	transition: 0.9s ease-in-out;
+
+}
+
 
 .text a{
 
 	color: #fff;
-	border: 2px solid #fff;
+	border:none;
 	text-decoration: none;
 	padding: 10px 20px ;
 	margin-right: 20px;
@@ -223,6 +276,9 @@ nav ul{
  margin: 0;
  margin-left: 10px;
 
+}
+.text h3{
+	font-size:17px;
 }
 .social{
 	position: absolute;
@@ -574,7 +630,7 @@ nav ul{
 	
 }
 .up{
-
+    margin-right: 10px;
 	width: 30px;
 	margin-top:-50px;
 
@@ -593,6 +649,12 @@ nav ul{
 @media(max-width:700px){
 .row2{
 	display:block;
+}
+.up{
+
+	width: 30px;
+
+
 }
 }
 
