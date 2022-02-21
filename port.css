@@ -25,10 +25,6 @@ nav{
 	width: 120px;
 	cursor: pointer;
 }
-.cart{
-	width: 40px;
-	cursor: pointer;
-}
 nav ul{
 	flex: 1;
 	text-align: right;
@@ -121,10 +117,46 @@ nav ul li a:hover::after{
 	flex-wrap: wrap;
 	margin-top: 10px;
 }
+
+
+
+.hero-btn{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 30%;
+	border:2px solid #fff;
+	background: transparent;
+	color: red;
+	border-radius:5px;
+	cursor: pointer;
+	padding: 0;
+}
+.hero-btn a{
+	text-decoration:none;
+	color: #fff;
+	transition: ease-in-out;
+	font-size: 20px;
+	font-family: Malgun Gothic;
+	padding: 0;
+
+
+}
+.hero-btn:hover{
+	background: darkred;
+	border-color:#fff ;
+	transition: 0.9s ease-in-out;
+
+}
+
+.qq{
+	padding-left: 10px;
+}
+
+
 .text a{
 
 	color: #fff;
-	border: 2px solid #fff;
+	border: none;
 	text-decoration: none;
 	padding: 10px 20px ;
 	margin-right: 20px;
@@ -155,24 +187,19 @@ nav ul li a:hover::after{
 
 	.container{
 	
-	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(bg6.jpg);
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(image/bg6.jpg);
 	
 }
 .text h1{
-	font-size: 90px;
+	font-size: 95px;
 }
 .text p{
+	margin-bottom:-7%;
 	font-size: 30px;
 }
-.text h3{
-	font-size: 10px;
-}
 
-.text a{
 
-	font-size:30px;
-	margin-top: 50px;
-}
+
 
 .row a{
 	margin-top:10px;
@@ -193,7 +220,7 @@ nav ul li{
 
 .nav-links{
 	position:absolute;
-	height: 100vh;
+	height:auto;
 	width: 200px;
 	top:0;
 	right:0px;
@@ -209,6 +236,7 @@ nav ul{
 
 
 .hero-btn{
+	
 	margin-top: 10px;
 	width: 80%;
 	border:2px solid #fff;
@@ -216,13 +244,15 @@ nav ul{
 	color: red;
 	border-radius:5px;
 	cursor: pointer;
+	padding: 0;
 }
 .hero-btn a{
 	text-decoration:none;
 	color: #fff;
 	transition: ease-in-out;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: Malgun Gothic;
+	padding: 0;
 
 
 }
@@ -233,31 +263,7 @@ nav ul{
 
 }
 
-.hero-btn2{
-	width: 80%;
-	margin-top: 20px;
-	border:2px solid #fff;
-	background: transparent;
-	color: red;
-	border-radius:5px;
-	cursor: pointer;
-}
-.hero-btn2 a{
 
-	text-decoration:none;
-	color: #fff;
-	transition: ease-in-out;
-	font-size: 30px;
-	font-family: Malgun Gothic;
-
-
-}
-.hero-btn2:hover{
-	background: darkred;
-	border-color:#fff ;
-	transition: 0.9s ease-in-out;
-
-}
 
 
 .text a{
@@ -278,18 +284,22 @@ nav ul{
 
 }
 .text h3{
-	font-size:17px;
+	font-size:14.5px;
 }
 .social{
 	position: absolute;
 	right: 5%;
-	bottom: 1%;
+	bottom: 0%;
 }
 .social img{
 	width: 25px;
 	display:inline-block;
     margin: 25px 5px;
 }
+.social:hover{
+	cursor: pointer;
+}
+
 }
 
 
@@ -421,7 +431,7 @@ nav ul{
 
 .about-me{
 
-	margin-top: 200px;
+	margin-top: 100%;
 
 }
 
@@ -559,6 +569,12 @@ nav ul{
 }
 .btn a:hover{
 	color: #fff;
+}
+
+@media(max-width: 700px){
+	.layer h3{
+		font-size: 20px;
+	}
 }
 
 /*---contact---*/
