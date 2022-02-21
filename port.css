@@ -190,6 +190,10 @@ nav ul li a:hover::after{
 	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.5)),url(bg6.jpg);
 	
 }
+
+.logo{
+	width:100px;
+	
 .text h1{
 	font-size: 95px;
 }
@@ -284,7 +288,7 @@ nav ul{
 
 }
 .text h3{
-	font-size:14.5px;
+	font-size:14px;
 }
 .social{
 	position: absolute;
