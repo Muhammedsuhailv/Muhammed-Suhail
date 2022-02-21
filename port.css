@@ -335,8 +335,9 @@ nav ul{
 	.row1{
 		flex-direction:column;
 		}
-
-
+.services{
+	height:100vh;
+	}
 }
 
 
